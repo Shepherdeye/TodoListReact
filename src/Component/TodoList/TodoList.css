@@ -1,0 +1,85 @@
+body {
+    background-color: #e7e7e7e7;
+}
+
+.todoList-container {
+    width: 40%;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 3px 6px 14px -2px rgba(0, 0, 0, .4);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.todo-title {
+    font-size: 31px;
+    color: gray;
+    text-align: center;
+    width: max-content;
+    border-bottom: 2px solid #333;
+}
+
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+   justify-content: start !important;
+   align-items: start;
+}
+
+.add-input {
+    height: 30px;
+    width: 100%;
+    outline: none;
+    resize: none;
+    border: none;
+    border-bottom: solid 2px gray;
+    margin-bottom: 10px;
+}
+
+.add-btn {
+    height: 30px;
+    width: 100%;
+    cursor: pointer;
+    background-color: gray;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.todo-li-container {
+    padding: 0;
+    display: flex;
+    justify-content: start;
+    overflow-wrap: break-word;
+    width: 100%;
+    overflow-x: wrap;
+    align-items: center;
+}
+
+.todo-li-container li {
+    list-style: none;
+    padding: 5px;
+    list-style-type: "📋";
+    font-weight: bold;
+    cursor: pointer;
+    color: hotpink;
+    overflow-wrap: break-word;
+    width: 100%;
+
+}
+.delete-btn span{
+    box-shadow: 1px 3px 7px -1px gray;
+    padding: 3px;
+    cursor: pointer;
+    width: 5px;
+    height: 5px;
+}
+.done{
+    list-style-type: "✔️" !important;
+    text-decoration: line-through;
+}
