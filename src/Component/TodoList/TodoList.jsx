@@ -49,7 +49,7 @@ export const TodoList = () => {
                     </div>
                 ))}
             </ul>
-            <input ref={myReff} className='add-input' type="text" placeholder=' Enter a value...' maxLength={50} />
+            <input ref={myReff} className='add-input' type="text" placeholder=' Enter a value...' maxLength={30} />
             <button className='add-btn' onClick={handleAddTodo}>Add Todo</button>
         </div>
     );

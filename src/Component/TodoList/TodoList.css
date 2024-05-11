@@ -59,6 +59,7 @@ body {
     width: 100%;
     overflow-x: wrap;
     align-items: center;
+    flex-wrap: initial;
 }
 
 .todo-li-container li {
@@ -72,6 +73,9 @@ body {
     width: 100%;
 
 }
+.delete-btn{
+    width: 20%;
+}
 .delete-btn span{
     box-shadow: 1px 3px 7px -1px gray;
     padding: 3px;
@@ -82,4 +86,11 @@ body {
 .done{
     list-style-type: "✔️" !important;
     text-decoration: line-through;
+}
+/* media query */
+@media (max-width:500px){
+    .todoList-container {
+        width: 80% !important;
+        margin: 5px auto;
+    }
 }
