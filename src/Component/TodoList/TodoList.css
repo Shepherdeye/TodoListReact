@@ -86,6 +86,7 @@ body {
 .done{
     list-style-type: "✔️" !important;
     text-decoration: line-through;
+    color: green !important;
 }
 /* media query */
 @media (max-width:500px){
